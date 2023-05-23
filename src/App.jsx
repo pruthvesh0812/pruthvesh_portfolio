@@ -36,7 +36,7 @@ export default function App() {
 
         <h2 style={{ fontFamily: "sans-serif" , marginBottom:5 ,marginTop:25   }}>Education</h2>
      
-        <h4 className="edu">
+        <h4 className="edu" style={{ marginTop:7}}>
         <li>BTech (Computer Science and Engineering), National Institute of
           Technology Goa, Ponda</li>
         </h4>
@@ -53,7 +53,7 @@ export default function App() {
           May 2018 - May 2020
         </h5>
 
-        <h2 style={{ fontFamily: "sans-serif", marginBottom:5 ,marginTop:35  }}>Courses</h2>
+        <h2 style={{ fontFamily: "sans-serif", marginBottom:7 ,marginTop:35  }}>Courses</h2>
         <h4 className="courseDetail">
           <li>Data Structures, National Institute of Technology Goa, Ponda</li>
         </h4>
