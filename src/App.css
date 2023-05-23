@@ -8,7 +8,7 @@
   font-size: 45px;
 }
 
-.profile{
+.profile {
   line-height: 35px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -37,12 +37,20 @@
   font-family: sans-serif;
 }
 
-.courseDetail{
+.edu {
   font-Family: sans-serif;
-  margin-Top:5px ;
-  margin-Bottom: 10px ;
+  margin-Top: 40;
+  margin-Bottom: 5;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.courseDetail {
+  font-Family: sans-serif;
+  margin-Top: 5px;
+  margin-Bottom: 10px;
   font-weight: 500;
-  line-Height:1.5;
+  line-height: 1.5;
 
 }
 
