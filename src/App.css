@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-family: display;
+  font-size: 45px;
+}
+
+.auxillary {
+  min-width: 80px;
+  background-color: rgb(4, 4, 68);
+}
+
+.leftDiv {
+  padding: 20px;
+}
+
+.rightDiv {
+  min-width: 30vw;
+  background-color: rgb(4, 4, 68);
+  padding-top: 118px;
+  padding-left: 20px;
+}
+
+.detailsData {
+  margin-bottom: 10px;
+  color: white;
+  opacity: 0.8;
+  font-family: sans-serif;
+}
+
+.detailsSkill {
+  margin-bottom: 1px;
+  color: white;
+  opacity: 0.8;
+  font-family: sans-serif;
+}
+
+.showLevel_exc {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 24vw;
+  height: 5px;
+}
+
+.showLevel_vg {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 18vw;
+  height: 5px;
+}
+
+.showLevel_g {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 12vw;
+  height: 5px;
+}
+
+.showLevel_av {
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 6vw;
+  height: 5px;
+}
+
+.portfolio {
+  display: flex;
+  height: 180vh;
+}
