@@ -10,7 +10,7 @@ const user = {
   linkedIn: "",
   gitHub: "",
   Entry_para:
-    "Passionate about problem-solving and eager to dive into the inner workings of companies and learn the ins and outs of the Technology and desing work. Adept at Entrepreneurship, strategy and analysis of business and project growth. Alongside my B.Tech degree at NIT Goa in Computer Science and Engineering, I have co-founded a startup named Toptrip.in - a travel based startup(currently unregistered) and have the experience of handling a team of 4 people for more than 7 months."
+    "Passionate about problem-solving and eager to dive into the inner workings of companies and learn the ins and outs of the Technology and design work. Adept at Entrepreneurship, strategy and analysis of business and project growth. Alongside my B.Tech degree at NIT Goa in Computer Science and Engineering, I have co-founded a startup named Toptrip.in - a travel based startup(currently unregistered) and have the experience of handling a team of 4 people for more than 7 months."
 };
 
 function MyButton({ level }) {
