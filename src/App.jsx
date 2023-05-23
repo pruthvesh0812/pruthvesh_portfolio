@@ -25,6 +25,12 @@ function MyButton({ level }) {
   }
 }
 
+function Line(){
+ return (<div className="line">
+        <button style={{backgroundColor:"yellow",  width: 500 , height: .1  , borderRadius:10 , border:0}}></button>
+        </div>);
+}
+
 export default function App() {
   return (
     <div className="portfolio">
@@ -33,6 +39,9 @@ export default function App() {
         <h1 className="title">{user.name}</h1>
         <h2 style={{ fontFamily: "sans-serif" , marginBottom:5  ,marginTop:25 }}>Profile</h2>
         <p className="profile" style={{ marginTop:5 , marginBottom:25 }}>{user.Entry_para}</p>
+        
+        <Line />
+        
 
         <h2 style={{ fontFamily: "sans-serif" , marginBottom:5 ,marginTop:25   }}>Education</h2>
      
@@ -49,9 +58,11 @@ export default function App() {
         <h4 className="edu">
           <li>11th & 12th Science, St. Xavier's Higher Secondary School, Mapusa</li>
         </h4>
-        <h5 style={{ fontFamily: "sans-serif", fontSize: 12 ,marginTop:5 ,marginBottom:5 , opacity:.7 }}>
+        <h5 style={{ fontFamily: "sans-serif", fontSize: 12 ,marginTop:5 ,marginBottom:35 , opacity:.7 }}>
           May 2018 - May 2020
         </h5>
+
+        <Line />
 
         <h2 style={{ fontFamily: "sans-serif", marginBottom:7 ,marginTop:35  }}>Courses</h2>
         <h4 className="courseDetail">
@@ -70,9 +81,11 @@ export default function App() {
         <h4 className="courseDetail">
           <li>Database Management, National Institute of Technology Goa, Ponda</li>
         </h4>
-        <h4 className="courseDetail">
+        <h4 className="courseDetail" style={{marginBottom:35}}>
           <li>Software Engineering, National Institute of Technology Goa, Ponda</li>
         </h4>
+
+        <Line />
 
         <h2 style={{ fontFamily: "sans-serif" , marginBottom:5, marginTop:35 }}>My Project</h2>
         <a href="https://github.com/pruthvesh0812/UI-Ux_designs_pruthvesh">

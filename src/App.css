@@ -30,6 +30,12 @@
   padding-left: 20px;
 }
 
+.line{
+  display: flex;
+  justify-content: center;
+
+}
+
 .detailsData {
   margin-bottom: 10px;
   color: white;
